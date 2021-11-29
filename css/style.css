@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 255, 0.294),
+    rgba(0, 255, 255, 0.294)
+  );
+}
+
+@font-face {
+  font-family: HarryPotter;
+  src: url("HarryP-MVZ6w.ttf") format("truetype");
+}
+
+h1 {
+  font-family: HarryPotter;
+  font-size: 44pt;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+#form-wrapper {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+#radio-buttons {
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+#radio-buttons > label {
+  min-width: 70px;
+  text-align: center;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  background-color: rgba(0, 255, 255, 0.486);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#delete {
+  margin-top: 10px;
+}
+
+.form-item {
+  margin: 5px;
+}
+
+.character-card {
+  min-width: 150px;
+  min-height: 120px;
+  justify-content: space-between;
+  margin: 10px 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#character-list {
+  padding: 0 0 0 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+h3,
+h4,
+p {
+  margin: 5px;
+  text-align: center;
+}
